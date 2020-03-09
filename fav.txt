@@ -1,0 +1,1 @@
+data:text/html, <html> <head> <title>Notepad</title> </head> <body> <label for="title">Title:</label> <input type="text" id="title" name="title" oninput="(function(){document.title = document.getElementById('title').value;})()"></input> <hr/> <textarea style="font-size: 1.5em; width: 100%; height: 100%; border: none; outline: none;" autofocus></textarea> <hr/> </body> </html>
